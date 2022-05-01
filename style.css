@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #009688 0px,
+     #009688 15vh, #dddbd1 15vh, #d2dbdc 100%);    
+}
+
+#app .container {
+    padding: 30px 0;
+}
+
+.header{
+    height: 70px;
+    background-color: #EAEAEA;
+}
+
+.notifications{
+    height: 80px;
+    background-color: #8EDAFD;
+}
+
+.search-bar{
+    height: 50px;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.contatti{
+    height: calc(100% - 200px);
+    overflow-y: auto;
+    
+}
+
+.contatti li{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.contatti li img {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.messages-container{
+    height: calc(100% - 140px);
+    width: 100%;
+    padding: 5% 10%;
+    background-image: url(./img/mine.jpg);
+    overflow-y: auto;
+}
+
+.footer{
+    height: 70px;
+}
+
+.messages-text {
+    position: relative;
+    margin: 5px 0;
+    padding: 15px 15px 20px 15px;
+    min-width: 40%;
+    max-width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.messages-text.sent{
+    background-color: #d5f9ba;
+    float: right;
+    clear: both;
+}
+.messages-text.received{
+    background: #fff;
+    float: left;
+    clear: both;
+}

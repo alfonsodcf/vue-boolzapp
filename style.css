@@ -80,3 +80,7 @@
     float: left;
     clear: both;
 }
+
+.active{
+    background-color: #c8caca;
+}
